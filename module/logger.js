@@ -14,7 +14,7 @@ const getLogger = (name, level) => {
         appenders: Object.assign({ "server": { type: "file", filename: `server.log` } }, appenders),
         categories: Object.assign({ default: { appenders: ["server"], level: "info" } }, categories)
     });
-    log4js_1.default.getLogger(name || "server");
+    return log4js_1.default.getLogger(name || "server");
 };
 exports.getLogger = getLogger;
 //# sourceMappingURL=logger.js.map
