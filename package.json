@@ -1,0 +1,17 @@
+{
+  "name": "@mo/utils",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "module",
+  "scripts": {
+    "test": "test",
+    "start": "ts-node ./src/index.ts",
+    "build:ts": "tsc -p tsconfig.json",
+    "build": "yarn build:ts"
+  },
+
+  "dependencies": {
+    "log4js": "^6.3.0"
+  }
+}
