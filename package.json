@@ -1,7 +1,6 @@
 {
-  "name": "@mo/utils",
+  "name": "@npm-immortal-user/utils",
   "version": "0.0.0",
-  "description": "",
   "main": "index.js",
   "types": "module",
   "scripts": {
@@ -10,8 +9,19 @@
     "build:ts": "tsc -p tsconfig.json",
     "build": "yarn build:ts"
   },
-
   "dependencies": {
     "log4js": "^6.3.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/immortalmind2016/utils.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/immortalmind2016/utils/issues"
+  },
+  "homepage": "https://github.com/immortalmind2016/utils#readme",
+  "description": ""
 }
