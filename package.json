@@ -1,7 +1,7 @@
 {
   "name": "@npm-immortal-user/utils",
-  "version": "0.0.2",
-  "main": "index.js",
+  "version": "0.0.3",
+  "main": "module",
   "types": "module",
   "scripts": {
     "test": "test",
