@@ -8,7 +8,8 @@ export const getLogger=(name,level)=>{
         appenders:{ "server": { type: "file", filename: `server.log` },...appenders } ,
         categories: { default: { appenders: ["server"], level:"info" },...categories }
     });
-    log4js.getLogger(name||"server");
+    return log4js.getLogger(name||"server");
+    
 }
 
 

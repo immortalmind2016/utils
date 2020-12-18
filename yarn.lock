@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@types/log4js@^2.3.5":
+  version "2.3.5"
+  resolved "https://registry.yarnpkg.com/@types/log4js/-/log4js-2.3.5.tgz#4d1e56da53d3c1820c08e9cd5092e68c3e1e822f"
+  integrity sha512-SwF8LkSHqHy9A8GQ67NAYJiGl8zzP4Qtx65Wa+IOxDGdMHxKeoQZjg7m2M1erIT6VK0DYHpu2aTbdLkdkuMHjw==
+  dependencies:
+    log4js "*"
+
 date-format@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/date-format/-/date-format-2.1.0.tgz#31d5b5ea211cf5fd764cd38baf9d033df7e125cf"
@@ -45,7 +52,7 @@ jsonfile@^4.0.0:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-log4js@^6.3.0:
+log4js@*, log4js@^6.3.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/log4js/-/log4js-6.3.0.tgz#10dfafbb434351a3e30277a00b9879446f715bcb"
   integrity sha512-Mc8jNuSFImQUIateBFwdOQcmC6Q5maU0VVvdC2R6XMb66/VnT+7WS4D/0EeNMZu1YODmJe5NIn2XftCzEocUgw==

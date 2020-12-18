@@ -1,6 +1,6 @@
 {
   "name": "@npm-immortal-user/utils",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "types": "module",
   "scripts": {
@@ -10,6 +10,7 @@
     "build": "yarn build:ts"
   },
   "dependencies": {
+    "@types/log4js": "^2.3.5",
     "log4js": "^6.3.0"
   },
   "devDependencies": {},
